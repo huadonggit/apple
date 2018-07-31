@@ -1,0 +1,325 @@
+a{
+    text-decoration: none;
+    color:#fff
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "黑体"
+}
+
+.header1{
+    width:100%;height:44px;
+    background: #333;
+    text-align: center;
+    line-height: 44px;
+    display:none;
+    cursor: pointer
+}
+.header1 a[class*=col]{
+    font-size:16px;
+    color:#fff;
+    font-family: "Arial";
+}
+.header2{
+    height:44px;
+    background: #333;
+    font-size:14px;
+    color:#fff;
+    display:none;
+    cursor: pointer
+}
+.header2 div[class*=col] a{
+    font-size:14px;
+    color:#fff
+}
+.header2 div[class*=col]:first-child{
+    padding:0 10px;
+    line-height: 44px;
+    text-align: left
+}
+.header2 div[class*=col]:last-child{
+    padding:0 10px;
+    line-height: 44px;
+    text-align: right
+}
+.header2 div[class*=col]:nth-child(2){
+    padding:0 10px;
+    line-height: 44px;
+    text-align: center
+}
+.con{
+    background: black;
+    padding:0 50px;
+    line-height:50px;
+    width:318%;
+    display:none;
+    float:left;
+    position: relative;
+    z-index: 999;
+    font-size: 16px
+}
+.con a{
+    display:block;
+    width:100%;
+    height:50px;
+    border-bottom: 1px solid #ccc
+}
+
+
+.banner.container-fulid{
+    height:302px;
+}
+.banner.container-fulid .row{
+    height:302px
+}
+.banner .col-s-36{
+    height:302px
+}
+.banner .bcon{
+    height:202px;
+    width:400%
+}
+.banner .bcon div{
+    float:left;
+}
+.banner .bcon1{
+    width:25%;height:202px;
+    background: url("../images/1.jpg") no-repeat center;
+    background-size: contain
+}
+.banner .bcon2{
+    width:25%;height:202px;
+    background: url("../images/11.png") no-repeat center;
+    background-size: contain
+}
+.banner .bcon3{
+    width:25%;height:202px;
+    background: url("../images/22.jpg") no-repeat center;
+    background-size: contain
+}
+.banner .bcon4{
+    width:25%;height:202px;
+    background: url("../images/33.jpg") no-repeat center;
+    background-size: contain
+}
+.banner .bbtn{
+    width:150px;height:50px;
+    margin: 25px auto;
+}
+.banner .bbtn .btn{
+    width:10px;height:10px;
+    border-radius: 50%;
+    background: #999;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+    cursor: pointer
+}
+@media screen and (min-width:740px){
+    .banner.container-fulid{
+         height:522px
+    }
+    .banner.container-fulid .row{
+         height:522px
+    }
+    .banner .col-s-36{
+        height:522px
+    }
+    .banner .bcon{
+        height:422px;width:400%
+    }
+    .banner .bcon1{
+        width:25%;height:422px;
+        background: url("../images/1.jpg") no-repeat center;
+        background-size: contain
+    }
+    .banner .bcon2{
+        width:25%;height:422px;
+        background: url("../images/11.png") no-repeat center;
+        background-size: contain
+    }
+    .banner .bcon3{
+        width:25%;height:422px;
+        background: url("../images/22.jpg") no-repeat center;
+        background-size: contain
+    }
+    .banner .bcon4{
+        width:25%;height:422px;
+        background: url("../images/33.jpg") no-repeat center;
+        background-size: contain
+    }
+}
+
+
+.lists.container-fluid{
+    height:auto;
+}
+.list.container-fluid .row{
+    height:auto;
+    overflow: hidden
+}
+.lists div[class*=col]:nth-child(1){
+    height:200px;
+    overflow: hidden;
+    background: url("../images/2.jpg") no-repeat center;
+}
+.lists div[class*=col]:nth-child(2){
+    height:200px;
+    overflow: hidden;
+    background: url("../images/3.jpg") no-repeat center;
+}
+.lists div[class*=col]:nth-child(3){
+    height:200px;
+    overflow: hidden;
+    background: url("../images/4.jpg") no-repeat center;
+}
+.lists div[class*=col]:nth-child(4){
+    height:200px;
+    overflow: hidden;
+    background: url("../images/5.jpg") no-repeat center;
+}
+
+
+.menu1{
+    width:100%;
+    background: #f2f2f2
+}
+.menu1 .container{
+    height:auto;
+    background: #f2f2f2;
+    margin-top:2px
+}
+.menu1 .container .row{
+    height:auto;
+}
+.menu1 div[class*=col]{
+    height:auto;
+    float:left;
+    padding:10px;
+    font-size:12px;
+    color:#000;
+    font-weight: bold;
+}
+.menu1 .cons{
+    height:auto;
+    margin-top:10px;
+    width:100%;
+}
+.menu1 .cons a{
+    height:30px;
+    display:block;
+    font-size: 4px;
+    color:#666;
+    font-family: "Arial";
+    line-height: 30px;
+    text-align: left;
+    font-weight: normal
+}
+.menu1 .cons a:hover{
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.menu2.container-fluid{
+    height:auto;
+    display:none;
+    cursor: pointer;
+    background: #f2f2f2;
+    margin-top:4px
+}
+.menu2.container-fluid .row{
+    height:auto;
+}
+.menu2 .con1{
+    height:auto;
+    float:left;
+    padding:20px 40px;
+    text-align: left;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 10px;overflow: hidden;
+    -moz-user-select:none;
+}
+.menu2 .cons{
+    background: #f2f2f2;
+    height:auto;
+    float:left;
+    width:100%;
+    display:none;
+    margin-top:20px
+}
+.menu2 .cons a{
+    height:30px;
+    display:block;
+    font-size: 8px;
+    color:#666;
+    text-align: left;
+    line-height: 10px;
+    padding:9px 20px;
+    font-family: "Arial"
+}
+.menu2 .cons a:hover{
+    text-decoration: underline
+}
+
+.footer{
+    width:100%;
+    background:#f2f2f2
+}
+.footer .container{
+    height:auto;
+    background: #f2f2f2
+}
+.footer .container .row{
+    height:auto
+}
+.footer .f1{
+    width:82%;
+    border-bottom:1px solid #e3e3e3;
+    font-size: 12px;
+    color:#999;
+    margin:0 auto;
+    line-height: 20px;
+    height:30px
+}
+.footer .f2{
+    width:82%;
+    font-size: 10px;
+    color:#999;
+    margin:0 auto;
+    padding:10px 0;
+    height:30px
+}
+.footer .f2 .f2-left{
+    float:left;
+    height:100%
+}
+.footer .f2 .f2-right{
+    float:left;
+    height:100%
+}
+.footer .f2 .f2-right a{
+    font-size:10px;
+    color:#666;
+    display:block;
+    float:left;
+    padding:0 10px;
+    height:100%;
+    line-height: 20px
+}
+.footer .f2 .f2-right a:hover{
+    cursor: pointer;
+    text-decoration: underline
+}
+.footer .f2 .f2-right .xian{
+    float:left;
+    line-height: 20px
+}
+.footer .f3{
+    width:82%;
+    font-size: 12px;
+    color:#999;
+    margin:0 auto;
+    padding:5px 0;
+    height:30px
+}
